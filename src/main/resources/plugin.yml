@@ -1,0 +1,17 @@
+name: CreativeSpy
+version: '1.0'
+main: ru.example.creativespy.CreativeSpyPlugin
+api-version: '1.21'
+author: Claude
+description: Логирует вход/выход из креатива и взятые предметы
+
+commands:
+  c:
+    description: Команды CreativeSpy
+    usage: /c spec <ник>
+    permission: creativespy.spec
+
+permissions:
+  creativespy.spec:
+    description: Позволяет смотреть историю креатива игроков
+    default: op
